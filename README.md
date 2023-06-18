@@ -1,12 +1,12 @@
 *******🟢UPDATE banksyd 🟢******* 18.06.23
 ```python
-cd $HOME/composable-testnet
+cd $HOME/composable-centauri
 git pull
 cd $HOME
-rm -rf composable-testnet
+rm -rf composable-centauri
 git clone https://github.com/notional-labs/composable-centauri/
 cd composable-centauri
-git checkout v3.1.0-testnet
+git checkout v3.1.0
 make build
 cd bin
 mv centaurid $HOME/go/bin/banksyd
